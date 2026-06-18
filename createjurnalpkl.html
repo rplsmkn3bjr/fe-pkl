@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PKL-Ku | Junral Kegiatan PKL</title>
+    <title>PKL-Ku | Detail Jurnal PKL</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -356,7 +356,7 @@
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
-                    <li class="breadcrumb-item active">Index</li>
+                    <li class="breadcrumb-item active">Detail</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -367,63 +367,34 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
-                                <div class="d-flex justify-content-between flex-wrap">
-                                    <div>
-                                        Datatable Jurnal Kegiatan Harian Siswa
+                                Detail Jurnal PKL
+                                <a href="jurnalkegiatansiswa.html" class="btn btn-outline-warning float-end"><i class="bi bi-backspace"></i> Kembali</a>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="">NIS</label>
+                                        <input type="text" name="nis" class="form-control" id="nis" value="123123123123" disabled>
                                     </div>
-                                    <div>
-                                        <a href="createajuanizinsakit.html" class="btn btn-outline-primary"><i class="bi bi-plus"></i> Pengajuan Izin / Sakit</a>
+                                    <div class="form-group mt-2">
+                                        <label for="">Nama Lengkap</label>
+                                        <input type="text" name="nama_lengkap" class="form-control" id="nama_lengkap" value="Muhammad Rayyan Aprizal" disabled>
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="">Waktu Masuk</label>
+                                        <input type="text" name="nama_lengkap" class="form-control" id="nama_lengkap" value="Senin, 12 Maret 2023 - 08.00" disabled>
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="">Kegiatan Harian</label>
+                                        <textarea name="" id="" class="form-control"></textarea>
                                     </div>
                                 </div>
-                                
                             </div>
-                            <div class="row table-responsive">
-                                <div class="col-12">
-                                    <table class="table datatable">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">Nama Siswa</th>
-                                                <th scope="col">Tempat PKL</th>
-                                                <th scope="col">Waktu Masuk</th>
-                                                <th scope="col">Status</th>
-                                                <th scope="col">Option</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Afdal Alfarizi</td>
-                                                <td>CV. SamDev Indonesia</td>
-                                                <td>12 Mei 2024 07:00</td>
-                                                <td>
-                                                    <span class="badge bg-danger">Not Approve</span>
-                                                </td>
-                                                <td>
-                                                    <a href="detailjurnalpkl.html" class="btn btn-outline-dark btn-sm"><i
-                                                            class="bi bi-list-check"></i></a>
-                                                    <a href="createjurnalpkl.html" class="btn btn-outline-dark btn-sm"><i
-                                                            class="bi bi-pencil"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Afdal Alfarizi</td>
-                                                <td>CV. SamDev Indonesia</td>
-                                                <td>12 Mei 2024 07:00</td>
-                                                <td>
-                                                    <span class="badge bg-success">Approve</span>
-                                                </td>
-                                                <td>
-                                                    <a href="detailjurnalpkl.html" class="btn btn-outline-dark btn-sm"><i
-                                                            class="bi bi-list-check"></i></a>
-                                                    <a href="createjurnalpkl.html" class="btn btn-outline-dark btn-sm"><i
-                                                            class="bi bi-pencil"></i></a>
-                                                </td>
-                                            </tr>
-                                            
-                                        </tbody>
-                                    </table>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-outline-primary btn-md float-end"><i class="bi bi-check"></i>Simpan</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
